@@ -1,5 +1,7 @@
 body {
   font-family: "Epilogue", sans-serif;
+  background: #e6e6e6;
+  --bgColor: #e6e6e6;
 }
 
 /* Nav CSS Start */
@@ -18,45 +20,40 @@ body {
   color: #074173;
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-  color: #1679AB;
+.navbar-nav .nav-item .nav-link:hover {
+  color: #1679ab;
 }
 
-.contactUsBtn{
-	background: #fff;
-	border: 1px solid #313131;
-	border-radius: 24px;
-	padding: 8px 12px;
-	text-decoration: none;
-	color: #313131;
-	font-size: 14px;
-	font-weight: 500;
+.contactUsBtn {
+  background: #fff;
+  border: 1px solid #313131;
+  border-radius: 24px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #313131;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.contactUsBtn i{	
-  background: #E7BD73;
-	border: none;
-	border-radius: 50%;
-	padding: 6px;
-  margin-left: 5px;	
-	color: #313131;
-	font-size: 12px;
-  transition: all .2s linear;
+.contactUsBtn i {
+  background: #e7bd73;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 5px;
+  color: #313131;
+  font-size: 12px;
+  transition: all 0.2s linear;
 }
 
-.contactUsBtn i:hover{	
+.contactUsBtn i:hover {
   padding: 8px 8px;
-	font-size: 14px;
+  font-size: 14px;
 }
 
 /* Nav CSS End */
 
 /* Hero Section Start */
-
-.sectionBgColor {
-  background: #e6e6e6;
-}
-
 .mainPosterImg {
   clip-path: polygon(
     15% 0%,
@@ -100,3 +97,16 @@ body {
 }
 
 /* Hero Section End */
+
+/* Info Section Start */
+
+/* Info Section End */
+
+/* About Section Start */
+
+#aboutSection {
+  margin-top: -50px;
+  background: var(--bgColor);
+}
+
+/* About Section End */
