@@ -23,12 +23,12 @@ body {
 }
 
 .contactUsBtn{
-	background: transparent;
-	border: 2px solid #171717;
+	background: #fff;
+	border: 1px solid #313131;
 	border-radius: 24px;
 	padding: 8px 12px;
 	text-decoration: none;
-	color: #171717;
+	color: #313131;
 	font-size: 14px;
 	font-weight: 500;
 }
@@ -39,7 +39,7 @@ body {
 	border-radius: 50%;
 	padding: 6px;
   margin-left: 5px;	
-	color: #171717;
+	color: #313131;
 	font-size: 12px;
   transition: all .2s linear;
 }
@@ -93,9 +93,9 @@ body {
 }
 
 .sideHeroTextSection h1 {
-  color: #171717;
-  font-size: 65px;
-  font-weight: 900;
+  color: #313131;
+  font-size: 5vw;
+  font-weight: 800;
   text-transform: capitalize;
 }
 
