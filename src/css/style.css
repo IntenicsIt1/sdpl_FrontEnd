@@ -195,3 +195,14 @@ body {
   font-weight: 600;
 }
 /* Slider Section End */
+
+
+/* Testomorials Section Start */
+.testimonialsUserProfile {
+  position: relative;
+  width: 65px;
+  border-radius: 50%;
+  z-index: 1;
+  margin-bottom: -15px;
+}
+/* Testomorials Section End */
