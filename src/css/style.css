@@ -3,9 +3,7 @@ body {
   background: #e6e6e6;
   --bgColor: #e6e6e6;
 }
-
 /* Nav CSS Start */
-
 .navbar-brand {
   background-image: url("https://sdplweb.com/public/sdpl-assets/images/logo/logo_new.png");
   background-position: center;
@@ -15,15 +13,12 @@ body {
   width: 108px;
   height: 48px;
 }
-
 .navbar-nav .nav-item .nav-link {
   color: #074173;
 }
-
 .navbar-nav .nav-item .nav-link:hover {
   color: #1679ab;
 }
-
 .contactUsBtn {
   background: #fff;
   border: 1px solid #313131;
@@ -34,7 +29,6 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-
 .contactUsBtn i {
   background: #e7bd73;
   border: none;
@@ -45,14 +39,11 @@ body {
   font-size: 12px;
   transition: all 0.2s linear;
 }
-
 .contactUsBtn i:hover {
   padding: 8px 8px;
   font-size: 14px;
 }
-
 /* Nav CSS End */
-
 /* Hero Section Start */
 .mainPosterImg {
   clip-path: polygon(
@@ -68,7 +59,6 @@ body {
   width: 100%;
   border-radius: 24px;
 }
-
 .smallBarImg {
   clip-path: polygon(
     16.8% 0%,
@@ -88,28 +78,20 @@ body {
   width: 175px;
   height: 40px;
 }
-
 .sideHeroTextSection h1 {
   color: #313131;
   font-size: 5vw;
   font-weight: 800;
   text-transform: capitalize;
 }
-
 /* Hero Section End */
-
 /* Info Section Start */
-
 /* Info Section End */
-
 /* About Section Start */
-
 #aboutSection {
   margin-top: -50px;
 }
-
 /* About Section End */
-
 /* Highlighter Section Start */
 #CardBody {
   clip-path: polygon(
@@ -131,7 +113,6 @@ body {
 #CardBody p {
   font-size: 12px;
 }
-
 .viewMoreBtn {
   background: #fff;
   border: 1px solid #313131;
@@ -142,7 +123,6 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
-
 .viewMoreBtn i {
   background: #e7bd73;
   border: none;
@@ -153,13 +133,11 @@ body {
   font-size: 12px;
   transition: all 0.2s linear;
 }
-
 .viewMoreBtn i:hover {
   padding: 7px;
   font-size: 14px;
 }
 /* Highlighter Section End */
-
 /* Slider Section Start */
 #SliderImg {
   clip-path: polygon(
@@ -175,7 +153,6 @@ body {
   width: 100%;
   border-radius: 24px;
 }
-
 /* Top left text */
 .top-left {
   position: absolute;
@@ -188,15 +165,12 @@ body {
   font-size: 14px;
   font-weight: 800;
 }
-
 .top-left p {
   color: #fff;
   font-size: 12px;
   font-weight: 600;
 }
 /* Slider Section End */
-
-
 /* Testomorials Section Start */
 .testimonialsUserProfile {
   position: relative;
@@ -206,3 +180,12 @@ body {
   margin-bottom: -15px;
 }
 /* Testomorials Section End */
+/* FAQ Section Start */
+.accordion-button:not(.collapsed) {
+  color: #e6e6e6;
+  background-color: #313131;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+/* FAQ Section End */
