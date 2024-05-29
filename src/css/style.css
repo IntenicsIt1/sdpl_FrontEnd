@@ -205,3 +205,11 @@ body {
   cursor: pointer;
 }
 /* Footer Section End */
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+  .sideHeroTextSection h1 {
+    font-size: 35px ;
+  }
+}
