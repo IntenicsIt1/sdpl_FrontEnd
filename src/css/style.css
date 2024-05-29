@@ -195,4 +195,10 @@ body {
 .footer-Links {
   font-size: 14px;
 }
+.copyrights {
+  font-size: 12px;
+}
+.social-links {
+  cursor: pointer;
+}
 /* Footer Section End */
