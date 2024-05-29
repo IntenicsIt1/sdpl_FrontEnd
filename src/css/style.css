@@ -14,10 +14,12 @@ body {
   height: 48px;
 }
 .navbar-nav .nav-item .nav-link {
-  color: #074173;
+  color: #313131;
+  border-radius: 24px;
 }
 .navbar-nav .nav-item .nav-link:hover {
-  color: #1679ab;
+  color: #313131;
+  background: #e7bd73;
 }
 .contactUsBtn {
   background: #fff;
@@ -189,3 +191,8 @@ body {
   box-shadow: none;
 }
 /* FAQ Section End */
+/* Footer Section Start */
+.footer-Links {
+  font-size: 14px;
+}
+/* Footer Section End */
